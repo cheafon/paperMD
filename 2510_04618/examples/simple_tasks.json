@@ -1,0 +1,75 @@
+{
+  "description": "Simple agent tasks for testing ACE prototype",
+  "tasks": [
+    {
+      "id": "calc-001",
+      "category": "mathematics",
+      "task": "Write Python code to calculate the factorial of 10 and print the result.",
+      "ground_truth": "3628800",
+      "difficulty": "easy"
+    },
+    {
+      "id": "calc-002",
+      "category": "mathematics",
+      "task": "Write Python code to find all prime numbers between 1 and 50, then print them as a list.",
+      "ground_truth": "[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]",
+      "difficulty": "medium"
+    },
+    {
+      "id": "string-001",
+      "category": "string_processing",
+      "task": "Write Python code to count the number of vowels in the string 'The quick brown fox jumps over the lazy dog' and print the count.",
+      "ground_truth": "11",
+      "difficulty": "easy"
+    },
+    {
+      "id": "string-002",
+      "category": "string_processing",
+      "task": "Write Python code to check if the string 'racecar' is a palindrome and print True or False.",
+      "ground_truth": "True",
+      "difficulty": "easy"
+    },
+    {
+      "id": "list-001",
+      "category": "data_structures",
+      "task": "Write Python code to find the maximum value in the list [3, 7, 2, 9, 1, 5, 8] and print it.",
+      "ground_truth": "9",
+      "difficulty": "easy"
+    },
+    {
+      "id": "list-002",
+      "category": "data_structures",
+      "task": "Write Python code to sort the list [64, 34, 25, 12, 22, 11, 90] in ascending order using bubble sort algorithm and print the sorted list.",
+      "ground_truth": "[11, 12, 22, 25, 34, 64, 90]",
+      "difficulty": "medium"
+    },
+    {
+      "id": "file-001",
+      "category": "file_operations",
+      "task": "Write Python code to create a text file named 'test_output.txt' with the content 'Hello from ACE prototype!' and then read it back to verify. Print 'Success' if the content matches.",
+      "ground_truth": "Success",
+      "difficulty": "medium"
+    },
+    {
+      "id": "dict-001",
+      "category": "data_structures",
+      "task": "Write Python code to create a dictionary with keys 'name', 'age', 'city' and values 'Alice', 30, 'New York' respectively. Then print the value associated with the key 'age'.",
+      "ground_truth": "30",
+      "difficulty": "easy"
+    },
+    {
+      "id": "logic-001",
+      "category": "logic",
+      "task": "Write Python code to implement FizzBuzz for numbers 1 to 15. Print 'Fizz' for multiples of 3, 'Buzz' for multiples of 5, 'FizzBuzz' for multiples of both, and the number otherwise. Print all results as a list.",
+      "ground_truth": "[1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'FizzBuzz']",
+      "difficulty": "medium"
+    },
+    {
+      "id": "func-001",
+      "category": "functions",
+      "task": "Write Python code to define a function that takes two numbers and returns their greatest common divisor (GCD). Test it with 48 and 18, then print the result.",
+      "ground_truth": "6",
+      "difficulty": "medium"
+    }
+  ]
+}
